@@ -25,4 +25,4 @@ jobs:
         env:
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
-        run: python avi_tracker_script.py
+        run: python tracker.py
